@@ -3,9 +3,9 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: blue;  
     
-    color: #303030;
+    color: white;
     font: Verdana, Arial, Sans-Serif;
 }
 
@@ -23,7 +23,7 @@ article {
 
 
 header {
-    color: skyblue;
+    color: whitesmoke;
     text-align: center;
 }
 
@@ -61,7 +61,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #e96464;
     overflow: hidden;
 }
 
@@ -80,11 +80,11 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #912222;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(231, 20, 20);
 }
 
 .Zeus {
@@ -114,6 +114,33 @@ nav li a.active {
     width:45%;
 }
 
+.Hera {
+    background-color: ;
+    color: ;
+    padding: 5px;
+    margin: 5px;
+    float: right;
+    width:45%;
+}
+
+.Demeter {
+    background-color: ;
+    color: ;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    width:45%;
+}
+
+.Hestia {
+    background-color: ;
+    color: ;
+    padding: 5px;
+    margin: 5px;
+    float: right;
+    width:45%;
+}
+
 .Aphrodite {
     background-color: pink;
     color:white;
@@ -126,6 +153,60 @@ nav li a.active {
 .Ares {
     background-color: red;
     color:white;
+    padding: 5px;
+    margin: 5px;
+    float: right;
+    width:45%;
+}
+
+.Hermes {
+    background-color: ;
+    color: ;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    width:45%;
+}
+
+.Hephaistos {
+    background-color: ;
+    color: ;
+    padding: 5px;
+    margin: 5px;
+    float: right;
+    width:45%;
+}
+
+.Apollo {
+    background-color: ;
+    color: ;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    width:45%;
+}
+
+.Artemis {
+    background-color: ;
+    color: ;
+    padding: 5px;
+    margin: 5px;
+    float: right;
+    width:45%;
+}
+
+.Athena {
+    background-color: ;
+    color: ;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    width:45%;
+}
+
+.Dionysos {
+    background-color: ;
+    color: ;
     padding: 5px;
     margin: 5px;
     float: right;
