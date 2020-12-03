@@ -4,9 +4,9 @@ html, body {
     height: 100%;
     padding: 0;
     background-color: blue;  
-    
     color: white;
-    font: Verdana, Arial, Sans-Serif;
+    font-family: "Papyrus", "fantasy";
+    font-size: 15px;
 }
 
 
@@ -115,7 +115,7 @@ nav li a.active {
 }
 
 .Hera {
-    background-color: white;
+    background-color: whitesmoke;
     color: black;
     padding: 5px;
     margin: 5px;
@@ -161,7 +161,7 @@ nav li a.active {
 
 .Hermes {
     background-color: gold;
-    color: white;
+    color: black;
     padding: 5px;
     margin: 5px;
     float: left;
@@ -170,7 +170,7 @@ nav li a.active {
 
 .Hephaistos {
     background-color: orange;
-    color: white;
+    color: black;
     padding: 5px;
     margin: 5px;
     float: right;
@@ -178,8 +178,8 @@ nav li a.active {
 }
 
 .Apollo {
-    background-color: ;
-    color: ;
+    background-color: rgb(102, 255, 102);
+    color: black;
     padding: 5px;
     margin: 5px;
     float: left;
@@ -196,8 +196,8 @@ nav li a.active {
 }
 
 .Athena {
-    background-color: ;
-    color: ;
+    background-color: rgb(0, 238, 255);
+    color: black;
     padding: 5px;
     margin: 5px;
     float: left;
