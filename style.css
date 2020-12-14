@@ -293,3 +293,12 @@ nav li a.active {
     width: 55%;
     margin-top:10px;
 }
+
+
+/* dagelijks.html css */
+
+.altaar {
+    text-align: middle;
+    float: middle;
+    width: 90%;
+}
