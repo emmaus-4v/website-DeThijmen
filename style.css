@@ -11,14 +11,13 @@ html, body {
 
 main {
     margin: 0 auto;
-    width: 700px;
+    width: 900px;
     position: relative;
 }
 
 
 article {
     text-align: justify;
-    width: 700px;
 }
 
 
@@ -55,6 +54,10 @@ a:hover {
     text-decoration: underline;
 }
 
+.godenlijst {
+    text-align: center;
+}
+
 
 /* navigatiebalk */
 nav ul {
@@ -64,6 +67,7 @@ nav ul {
     padding: 0;
     background-color: #e96464;
     overflow: hidden;
+    width: 700px;
 }
 
 nav ul li {
