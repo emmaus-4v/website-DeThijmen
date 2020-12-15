@@ -2,7 +2,6 @@
 
 html, body {
     height: 100%;
-    padding: 0;
     background-color: blue;  
     color: white;
     font-family: "Papyrus", "fantasy";
@@ -19,6 +18,7 @@ main {
 
 article {
     text-align: justify;
+    width: 700px;
 }
 
 
@@ -298,7 +298,8 @@ nav li a.active {
 /* dagelijks.html css */
 
 .altaar {
-    text-align: middle;
-    float: middle;
-    width: 90%;
+    text-align: center;
+    width: 800px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
