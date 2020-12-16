@@ -303,5 +303,6 @@ nav li a.active {
 
 .Dagelijksetekst {
     text-align: center;
-    width: 600px;
+    width: 90%;
+    margin: auto;
 }
