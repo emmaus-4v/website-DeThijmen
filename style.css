@@ -1,7 +1,6 @@
 /* Basislayout */
 
 html, body {
-    height: 100%;
     background-color: blue;  
     color: white;
     font-family: "Papyrus", "fantasy";
@@ -10,16 +9,10 @@ html, body {
 
 
 main {
-    margin: 0 auto;
+    margin: auto;
     width: 900px;
     position: relative;
 }
-
-
-article {
-    text-align: justify;
-}
-
 
 header {
     color: whitesmoke;
@@ -37,11 +30,6 @@ footer {
 
 
 /* specifieke stijlen */
-
-img.zweefLinks {
-    float: right;
-    margin-right: 15px;
-}
 
 .smalltext {
     font-size: 0.7em;
@@ -259,6 +247,13 @@ nav li a.active {
 
 .Dagelijksetekst {
     text-align: center;
-    width: 90%;
+    width: 95%;
     margin: auto;
+    clear: both;
+}
+
+.Dagelijksebeelding {
+    width: 50%;
+    margin: auto;
+    display: block;
 }
