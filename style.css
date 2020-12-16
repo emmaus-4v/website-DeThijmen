@@ -25,6 +25,7 @@ header {
     color: whitesmoke;
     text-align: center;
     width: 700px;
+    margin: auto;
 }
 
 
@@ -64,6 +65,7 @@ nav ul {
     background-color: #e96464;
     overflow: hidden;
     width: 700px;
+    margin-bottom: 30px;
 }
 
 nav ul li {
@@ -234,20 +236,21 @@ nav li a.active {
 }
 
 
-/* mythische-wezens.html */
+/* mythische-wezens.html css */
 
 .Mythisch {
-    margin-bottom:30px;
+    clear: both;
+    margin: auto;
 }
 
 .Wezentext {
     float: left;
-    width: 70%;
+    width: 80%;
 }
 
 .mythischebeelding {
     float: right;
-    width: 25%;
+    width: 15%;
     margin-top: 20px;
 }
 
