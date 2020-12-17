@@ -110,7 +110,6 @@ nav li a.active {
     width: 48%;
     margin: auto;
     float: left;
-<<<<<<< HEAD
     text-align: center;
 }
 
@@ -121,18 +120,6 @@ nav li a.active {
     text-align: center;
 }
 
-=======
-    text-align: center;
-}
-
-.ggodenlijstt {
-    width: 48%;
-    margin: auto;
-    float: right;
-    text-align: center;
-}
-
->>>>>>> 84f376f94c37f46ce144e98d50e68c51961b42ee
 .god {
     padding: 5px;
     margin: 10px;
