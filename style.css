@@ -1,7 +1,6 @@
 /* Basislayout */
 
 html, body {
-    height: 100%;
     background-color: blue;  
     color: white;
     font-family: "Papyrus", "fantasy";
@@ -10,16 +9,10 @@ html, body {
 
 
 main {
-    margin: 0 auto;
+    margin: auto;
     width: 900px;
     position: relative;
 }
-
-
-article {
-    text-align: justify;
-}
-
 
 header {
     color: whitesmoke;
@@ -37,11 +30,6 @@ footer {
 
 
 /* specifieke stijlen */
-
-img.zweefLinks {
-    float: right;
-    margin-right: 15px;
-}
 
 .smalltext {
     font-size: 0.7em;
@@ -91,6 +79,23 @@ nav li a.active {
 }
 
 
+/* animation */
+
+@keyframes FadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.FADE {
+    animation-name: FadeIn;
+    animation-duration: 5s;
+}
+
+
 /* index.html css */
 
 .ontstaan {
@@ -102,137 +107,93 @@ nav li a.active {
 /* goden.html css */
 
 .godenlijst {
-    width: 100%;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    clear: both;
+    width: 48%;
+    margin: auto;
+    float: left;
     text-align: center;
+}
+
+.ggodenlijstt {
+    width: 48%;
+    margin: auto;
+    float: right;
+    text-align: center;
+}
+
+.god {
+    padding: 5px;
+    margin: 10px;
+    width: 95%;
 }
 
 .Zeus {
     background-color: yellow;
     color:black;
-    padding: 5px;
-    margin: 5px;
-    float: left;
-    width:45%;
 }
 
 .Poseidon {
     background-color:rgb(38, 86, 219);
     color:white;
-    padding: 5px;
-    margin: 5px;
-    float: right; 
-    width:45%;
 }
 
 .Hades {
     background-color: black;
     color:white;
-    padding: 5px;
-    margin: 5px;
-    float: left;
-    width:45%;
 }
 
 .Hera {
     background-color: whitesmoke;
     color: black;
-    padding: 5px;
-    margin: 5px;
-    float: right;
-    width:45%;
-}
-
-.Demeter {
-    background-color: wheat;
-    color: black;
-    padding: 5px;
-    margin: 5px;
-    float: left;
-    width:45%;
 }
 
 .Hestia {
     background-color: rgb(190, 70, 70);
     color: white;
-    padding: 5px;
-    margin: 5px;
-    float: right;
-    width:45%;
+}
+
+.Demeter {
+    background-color: wheat;
+    color: black;
 }
 
 .Aphrodite {
     background-color: pink;
     color: white;
-    padding: 5px;
-    margin: 5px;
-    float: left;
-    width:45%;
 }
 
 .Ares {
     background-color: red;
     color:white;
-    padding: 5px;
-    margin: 5px;
-    float: right;
-    width:45%;
 }
 
 .Hermes {
     background-color: gold;
     color: black;
-    padding: 5px;
-    margin: 5px;
-    float: left;
-    width:45%;
 }
 
 .Hephaistos {
     background-color: orange;
     color: black;
-    padding: 5px;
-    margin: 5px;
-    float: right;
-    width:45%;
 }
 
 .Apollo {
     background-color: rgb(102, 255, 102);
     color: black;
-    padding: 5px;
-    margin: 5px;
-    float: left;
-    width:45%;
 }
 
 .Artemis {
     background-color: rgb(49, 126, 49);
     color: white;
-    padding: 5px;
-    margin: 5px;
-    float: right;
-    width:45%;
 }
 
 .Athena {
     background-color: rgb(0, 238, 255);
     color: black;
-    padding: 5px;
-    margin: 5px;
-    float: left;
-    width:45%;
 }
 
 .Dionysos {
     background-color: purple;
     color: white;
-    padding: 5px;
-    margin: 5px;
-    float: right;
-    width:45%;
 }
 
 
@@ -303,5 +264,13 @@ nav li a.active {
 
 .Dagelijksetekst {
     text-align: center;
-    width: 600px;
+    width: 95%;
+    margin: auto;
+    clear: both;
+}
+
+.Dagelijksebeelding {
+    width: 50%;
+    margin: auto;
+    display: block;
 }
